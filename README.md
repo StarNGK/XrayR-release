@@ -17,7 +17,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/StarNGK/XrayR-release/master/i
 # Docker 安装
 
 ```
-docker pull ghcr.io/starngk/xrayr:master && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host ghcr.io/starngk/xrayr:master
+docker pull ghcr.io/starngk/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host ghcr.io/starngk/xrayr:latest
 ```
 
 # Docker compose 安装
